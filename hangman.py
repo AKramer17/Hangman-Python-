@@ -11,9 +11,9 @@ def hangman():
         print ("Remaining guesses: " + remainingGuesses)
 
         letter = input("Guess: ")
-        if len(letter) != 1 or letter != #letter.toString() -- how to do in Python
+        if len(letter) != 1 or letter != str(letter):
+            print ("Invalid entry. Please enter a letter.")
 
-    
 
 wordList = ["alligator", "astroid", "balloon"] #To be extended
 hiddenWord = random.choice(wordList)
