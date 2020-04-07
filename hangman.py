@@ -23,7 +23,7 @@ def letterFill(hiddenWord, wordDash, letter):
         if hiddenWord[i] == letter:
             result = result + letter
         else:
-            result = result + wordDash
+            result = result + wordDash[i]
     return result
 
 wordList = ["alligator", "astroid", "balloon", "balcony", "blinded", "character", "chamber",
